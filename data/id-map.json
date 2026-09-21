@@ -1,0 +1,19 @@
+{
+    "a7f31c": {
+        "type": "folder",
+        "path": "mathematics/algebra/solving_quadratics",
+        "number": "2.11"
+    },
+
+    "b82e91": {
+        "type": "document",
+        "path": "mathematics/algebra/solving_quadratics/factorising.md",
+        "number": "2.11.1"
+    },
+
+    "c71a42": {
+        "type": "document",
+        "path": "mathematics/algebra/solving_quadratics/quadratic_formula.md",
+        "number": "2.11.2"
+    }
+}
