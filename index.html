@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +14,84 @@
 
     <header>
         <h1>Study Guide</h1>
-        <p>My personal knowledge base</p>
     </header>
 
     <main>
-        <section>
-            <h2>Mathematics</h2>
+        <section class="topic-tree">
 
-            <div class="topic-card">
-                <h3>Algebra</h3>
-                <p>Equations, quadratics, sequences and functions.</p>
+            <div class="topic">
+                <button class="topic-button">
+                    <span class="arrow">▶</span>
+                    Mathematics
+                </button>
+
+                <div class="topic-children">
+
+                    <div class="topic-children-inner">
+                        <div class="topic">
+                            <button class="topic-button">
+                                <span class="arrow">▶</span>
+                                Algebra
+                            </button>
+
+                            <div class="topic-children">
+
+                                <div class="topic-children-inner">
+                                    <div class="topic">
+                                        <button class="topic-button">
+                                            <span class="arrow">▶</span>
+                                            Equations
+                                        </button>
+
+                                        <div class="topic-children">
+                                            <div class="topic-children-inner">
+                                                <a class="topic-link" href="content/mathematics/equations.html">
+                                                    Linear Equations
+                                                </a>
+
+                                                <a class="topic-link" href="content/mathematics/quadratics.html">
+                                                    Quadratic Equations
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="topic">
+                                        <button class="topic-button">
+                                            <span class="arrow">▶</span>
+                                            Functions
+                                        </button>
+
+                                        <div class="topic-children">
+                                            <div class="topic-children-inner">
+                                                <a class="topic-link" href="content/mathematics/functions.html">
+                                                    Introduction to Functions
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="topic">
+                            <button class="topic-button">
+                                <span class="arrow">▶</span>
+                                Geometry
+                            </button>
+
+                            <div class="topic-children">
+                                <div class="topic-children-inner">
+                                    <a class="topic-link" href="content/mathematics/geometry.html">
+                                        Geometry Basics
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
         </section>
     </main>
 
