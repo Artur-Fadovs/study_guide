@@ -1,2 +1,2 @@
 # Study Guide
-Just a personal small projects to learn stuff
+Just a personal small project to learn stuff
