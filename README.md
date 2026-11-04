@@ -1,2 +1,2 @@
-# study_guide
-Study Guide
+# Study Guide
+Just a personal small projects to learn stuff
